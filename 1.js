@@ -31,15 +31,11 @@ function num () {
 	var p1 = document.getElementsByTagName('p');
 
 
-for (var i=0 ; i<p1.length; i++) {
-	p1[i].innerHTML = i+1 + ') ' + p1[i].innerHTML;
-	// if (i==1) {break} ;
+for (var i=3 ; i<p1.length; i++) {
+	p1[i].innerHTML = i-2 + ') ' + p1[i].innerHTML;
+	if (i==5) {break} ;
     }
-
 }
-
-
-
 // Task 4
 
 document.getElementById('rezult').value = rezult;
